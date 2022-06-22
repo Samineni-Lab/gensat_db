@@ -38,7 +38,7 @@ The intention of this repository is to streamline downloading, updating, and acc
        1.  click the variable named `Path`.
        2.  click the button labeled `Edit...`
        3.  in the top right of the new window (titled `Edit environment variable`), click the button labeled `New`
-       4.  If you chose a different install location for MariaDB, paste the path you copied from before
+       4.  If you chose a different install location for MariaDB, paste the path you copied from before into the text field
        5.  If you did not change install location, paste `C:\Program Files\MariaDB 10.3\bin` into the field
    6.  Click the `OK` button at the bottom right of the `Edit environment variable` window.
    7.  Click the `OK` button at the bottom right of the `Environment Variables` window.
@@ -58,7 +58,7 @@ The intention of this repository is to streamline downloading, updating, and acc
 
 ## Use
 
-To interface with the database, run `access.bat {username} {password}` in PowerShell. This will pull up a new command line interface to interact with the database. Here, you can run the example commands in the GENSAT [document], such as `select * from structure`, or those of your own creation. It is recommended you learn the structure of the database and SQL (at least the `SELECT` and `GROUP BY` features) to get the most out of the data ([click here](https://www.w3schools.com/sql/) for a tutorial on SQL).
+To interface with the database, run `access.bat {username} {password}` in PowerShell. This will pull up a new command line interface to interact with the database. Here, you can run the example commands in the GENSAT [document], such as `select * from structure`, or those of your own creation. It is recommended you learn the structure of the database and SQL (at least the `SELECT` and `GROUP BY` features) to get the most out of the data ([click here](https://www.w3schools.com/sql/) for a tutorial on SQL). Enter `exit` to return to PowerShell's command line.
 
 The public database updates daily, so run `download_data.bat` and `copy_db.bat` regularly to keep your local copy updated.
 
