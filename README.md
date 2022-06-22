@@ -13,7 +13,7 @@ The intention of this repository is to streamline downloading, updating, and acc
    * see [Navigating PowerShell](#navigating-powershell) for help with changing directories in a PowerShell prompt
 3. Clone/Download this repository to the directory of your choice
    * This requires `git` to be installed ([64-bit Windows Installation](https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe), [32-bit Windows Installation](https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-32-bit.exe))
-   * run `git clone {cloning link}` in PowerShell to clone the repository
+   * run `git clone https://github.com/Samineni-Lab/gensat_db.git` in PowerShell to clone the repository
      * this will create a *new* folder called `gensat_db` in your current directory
 4. Change your directory to the repository's by running `cd gensat_db`
 5. Run `download_data.bat` in PowerShell while in the repository's directory to download and unzip the GENSAT database dump
